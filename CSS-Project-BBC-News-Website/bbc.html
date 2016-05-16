@@ -2,76 +2,7 @@
 <html>
     <head>
         <title>Technology - BBC News</title>
-
-        <style type="text/css">
-           #topbar {
-               width: 1000px;
-               margin: 0 auto;
-               height: 40px;
-           }
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: Helvetica, Arial, sans-serif;
-            }
-            #logo {
-                margin-top: 8px;
-                width: 100px;
-                float: left;
-                margin-right: 8px;
-            }
-            .topbar-section {
-                float: left;
-                border-left: 1px #CCCCCC solid;
-                height: 100%;
-            }
-            #signin-image {
-                width: 25px;
-                margin: 11px 15px;
-                float: left;
-            }
-            #signin-text {
-                font-weight: bold;
-                font-size: 90%;
-                position: relative;
-                top: 14px;
-                padding-right: 40px;   /* padding-right: 50px; */
-            }
-            #wigglyline {
-                float: left;
-                height: 40px;
-            }
-            #bell {
-                height: 25px;
-                margin: 9px 8px;
-            }
-            #bell-div {
-                float: left; 
-            }
-            .topbar-menu {
-                font-weight: bold;
-                font-size: 90%;
-                padding: 13px 15px 0 15px;
-                height: 27px;
-            }
-            #more-arrow {
-                width: 16px;
-                margin-left: 20px;
-            }
-            #search-box {
-                background-color: #E4E4E4;
-                border: none;
-                font-weight: bold;
-                font-size: 14px;
-                padding: 5px;
-                margin: 5px 0 5px 5px;
-                float: left;
-            }
-            #magnifying-glass {
-                height: 26px;   /* height: 27px; */
-                margin-top: 5px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="bbc.css">
     </head>
     <body>
         <div id="topbar">
@@ -108,6 +39,90 @@
                 <input type="image" id="magnifying-glass" src="images/magnifying-glass.png">
             </div>
         </div>
-      
+        <div class="clear"></div>
+        <div id="menu-bar-container">
+            <div id="menu-bar">
+                <h1>NEWS</h1>
+                <div id="local-news">
+                    <a href="">Find local news</a>
+                    <img src="images/pointer.png">
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="menu-bar-2-container">
+               <div id="menu-bar-2">
+                   <a href="">Home</a>
+                   <a href="">UK</a>
+                   <a href="">World</a>
+                   <a href="">Business</a>
+                   <a href="">Politics</a>
+                   <a href="">Tech</a>
+                   <a href="">Science</a>
+                   <a href="">Health</a>
+                   <a href="">Education</a>
+                   <a href="">Entertainment & Arts</a>
+                   <a href="">Video & Audio</a>
+                   <a href="" class="no-border">More</a>
+                   <img id="down-arrow" src="images/down-arrow.png">
+               </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">
+                <h2>Technology</h2>
+                <div id="article-container">
+                    <h3><a href="">Canada phone app for wildfire victims</a></h3>
+                    <div id="article-summary">
+                        <p>A smartphone app released by the Canadian province of Alberta will allow people who fled the fire-hit town of Fort McMurray to see satellite images of their homes.</p>
+                        <p><img class="clock" src="images/clock.png"> <span class="date">16 May 2016</span><a class="topic-link" href="">Technology</a></p>
+                        <hr id="article-hr" align="left">
+                        <p><img class="clock" src="images/video.png"><a class="article-link" href=""> Devastation inside Fort McMurray</a></p>
+                        <p><img class="clock" src="images/video.png"><a class="article-link" href=""> 'The fire cascaded down the hill'</a></p>
+                        <p><a class="article-link" href=""> Images reveal fire destruction</a></p>
+                        <p><a class="article-link" href=""> Fire-hit oil plants to restart</a></p>
+                    </div>
+                    <img id="main-article-image" src="images/main-article-image.jpg">
+                </div>
+            </div>
+            <div id="watch-listen">
+                <h4>Watch/Listen</h4>
+                <img class="article-side-image" src="images/article-1.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">London delivery bots 'by end of year'</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date">13 May 2016</span></p>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side-image" src="images/article-2.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">Robot learns dexterity by spinning a tube</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date border-right">13 May 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side-image" src="images/article-3.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">Scientists: 21% of plants risk extinction</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date border-right">10 May 2016</span><br><a class="topic-link no-border" href="">Science & Environment</a></p>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side-image" src="images/article-4.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">Rainbow rival for BBC Micro Bit gadget</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date border-right">10 May 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side-image" src="images/article-5.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">Two-legged robot conquers bumpy terrain</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date border-right">10 May 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side-image" src="images/article-6.PNG">
+                <div class="side-article">
+                    <p><a class="watch-listen-link" href="">Facebook denies editing Trending Topics</a></p>
+                    <p><img class="clock" src="images/clock.png"> <span class="date border-right">10 May 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
+                </div>
+            </div>               
+        </div>
     </body>
 </html>
